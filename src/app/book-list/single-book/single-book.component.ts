@@ -21,7 +21,9 @@ export class SingleBookComponent implements OnInit {
 			(book: Book) => {
 				this.book = book;
 			}
-		);
+		).catch((error) => {
+			console.log('Erreur : ' + error);
+		});
   	}
 
 	onBack() {

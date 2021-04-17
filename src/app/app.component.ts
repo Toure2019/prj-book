@@ -11,11 +11,12 @@ import "firebase/firestore";
 })
 export class AppComponent {
   	title = 'prj-book';
+	//  databaseURL: "https://prj-book-2021.firebaseio.com", 
 	constructor() {
 		const config = {
 			apiKey: "AIzaSyBXn97TSIe4ilQ7NejiXS6eWRGEb_gcJ1c",
 			authDomain: "prj-book-2021.firebaseapp.com",
-			databaseURL: "https://prj-book-2021.firebaseio.com",
+			databaseURL: "https://prj-book-2021-default-rtdb.firebaseio.com/",
 			projectId: "prj-book-2021",
 			storageBucket: "prj-book-2021.appspot.com",
 			messagingSenderId: "856793800231",
