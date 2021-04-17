@@ -29,7 +29,7 @@ export class BookListComponent implements OnInit, OnDestroy {
 		this.router.navigate(['/books', 'new']);
 	}
 
-	onDeleBook(book: Book) {
+	onDeleteBook(book: Book) {
 		this.bookService.removeBook(book);
 	}
 
